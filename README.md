@@ -4,6 +4,8 @@ django-moneta
 Django app for Moneta eTerminal API.
 Mozzila's NSS library is used for secure communications, because OpenSSL or GnuTLS doesn't work with Moneta's servers.
 
+
+
 Requirements
 ------------
 
@@ -22,7 +24,7 @@ Usage
 1. Create NSS database with Mobitel's root CA certificate and your client certificate (you can use certconvert.sh)
 2. Edit your settings.py
  * Add `moneta` to `INSTALLED_APPS`
- * set `MONETA_DBDIR` to point to NSS directory you've created in first step
+ * set `MONETA_DBDIR` to point to NSS directory you've created in the first step
  * set `MONETA_CERT_NAME` to your client certificate name
  * optionally set `MONETA_PIN` if you're using it
  * set `MONETA_PRODUCTION` to `True` when you go to production
@@ -52,6 +54,19 @@ TODO
 * Suport delayed transaction
 * Support other API functions
 
+Author
+======
+
+[Visionect d.o.o.], [Matevž Mihalič]
+
+Licence
+=======
+
+MIT
+
+
 [Django]: http://djangoproject.com/
 [pysimplesoap]: https://code.google.com/p/pysimplesoap/
 [python-nss]: https://www.mozilla.org/projects/security/pki/python-nss/
+[Visionect d.o.o.]: http://www.visionect.si
+[Matevž Mihalič]: http://marv.si
