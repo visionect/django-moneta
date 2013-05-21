@@ -55,14 +55,14 @@ TODO
 * Support other API functions
 
 Author
-======
+------
 
 [Visionect d.o.o.], [Matevž Mihalič]
 
 Licence
-=======
+-------
 
-MIT
+MIT: http://mit-license.org/
 
 
 [Django]: http://djangoproject.com/

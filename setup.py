@@ -10,7 +10,7 @@ if __name__ == '__main__':
         version = VERSION,
         description = "Django app for Moneta eTerminal API.",
         long_description = open(os.path.join(os.path.dirname(__file__), 'README.md')).read(),
-        author = 'Visionect d.o.o., Matevž Mihalič',
+        author = 'Visionect d.o.o., Matevz Mihalic',
         author_email = 'matevz.mihalic@visionect.si',
         url = 'https://github.com/visionect/django-moneta',
         keywords = "moneta django api eterminal",
