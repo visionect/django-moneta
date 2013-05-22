@@ -16,6 +16,10 @@ if __name__ == '__main__':
         keywords = "moneta django api eterminal",
         license = 'MIT',
         packages = find_packages(),
+        package_data = {
+            '': ['README.md']
+        },
+        include_package_data=True,
         classifiers = (
             'Development Status :: 4 - Beta',
             'Environment :: Web Environment',
@@ -27,7 +31,7 @@ if __name__ == '__main__':
         ),
         install_requires = (
             'Django>=1.3',
-            'pysimplesoap>=1.08b',
-            'python-nss>=0.12'
+            #'pysimplesoap>=1.08b',
+            #'python-nss>=0.12'
         )
     )
